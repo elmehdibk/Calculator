@@ -3,5 +3,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top:150px;
 
+}
+
+.op{
+    background-color:#EFE1D1;
+}
+.eq{
+    background-color:#4477CE;
+}
+
+.title{
+    color:#9DB2BF;
+    text-align: center;
+    font-family: 'Calculator', sans-serif;
+    font-size:90px;
 }
