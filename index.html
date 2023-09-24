@@ -8,12 +8,11 @@
     <script src="js/script.js" defer></script>
     <title>Calculator</title>
 </head>
-<body>
-    <div class="container cnt">
-            
+<body> 
+    <div class="container border mt-4 cnt">
         <table class="border">
             <thead>
-                    <input type="text" id="res">
+                    <input type="text" id="DisplayRes">
                 </thead>
                 <tbody>
                     <tr>
@@ -38,13 +37,14 @@
                     <tr>
                         <td class="btn btn-success m-1" onclick="calc('.')">.</td>
                         <td class="btn btn-success m-1" onclick="calc('0')">0</td>
-                        <td class="btn btn-success m-1" onclick="calc('=')">=</td>
+                        <td class="btn btn-success m-1" onclick="res()">=</td>
                         <td class="btn btn-success m-1" onclick="calc('+')">+</td>
 
                     </tr>
                 </tbody>
             </table>
        
+            
     </div>
     
 </body>

@@ -1,7 +1,16 @@
-const res=  document.querySelector('#res')
+const displayres=  document.querySelector('#DisplayRes')
 
 function calc(value) {
-    res.value+=value
+    displayres.value+=value
+    if(value=='c'){
+        displayres.value=''
+    }
+   
+}
+
+function res(){
+   let r= eval(displayres.value)
+    displayres.value=r
 }
 
 
