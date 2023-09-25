@@ -1,11 +1,9 @@
 const displayres=  document.querySelector('#DisplayRes')
-const btn=document.querySelector('#btn').innerHTML
 function calc(value) {
     displayres.value+=value
     if(value=='c'){
         displayres.value=''
     }
-    
 }
 
 function backspace(){
